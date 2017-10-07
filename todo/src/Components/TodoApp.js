@@ -1,13 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
+import AddTodo from './AddTodo'
 
-class TodoApp extends Component {
-    render() {
-        return (
-            <div>
-                Hello, React!
-            </div>
-        )
-    }
-}
+const TodoApp = () => (
+    <div>
+        <AddTodo />
+    </div>
+)
 
 export default TodoApp
