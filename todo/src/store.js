@@ -1,10 +1,6 @@
 import { todos } from './reducer'
 import { createStore } from 'redux'
 
-const store = createStore(todos)
-
-export default store
-
 const defaultTodos = [
     {
         id: 1,
@@ -19,3 +15,7 @@ const defaultTodos = [
         content: "学习 react-router"
     }
 ]
+
+const store = createStore(todos, defaultTodos)
+
+export default store
