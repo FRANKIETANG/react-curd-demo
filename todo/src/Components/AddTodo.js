@@ -1,10 +1,10 @@
 import React from 'react'
 
 const AddTodo = () => (
-    <div>
+    <header className="header">
         <h1>Todos</h1>
-        <input type="text" placeholder="接下来干嘛？" />
-    </div>
+        <input className="new-todo" placeholder="接下来干嘛？" autoFocus />
+    </header>
 )
 
 export default AddTodo

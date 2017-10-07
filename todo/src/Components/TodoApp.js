@@ -5,12 +5,14 @@ import Footer from './Footer'
 
 import todos from '../store'
 
+import 'todomvc-app-css/index.css'
+
 const TodoApp = () => (
-    <div>
+    <section className="todoapp">
         <AddTodo />
         <TodoList todos={todos} />
         <Footer />
-    </div>
+    </section>
 )
 
 export default TodoApp
