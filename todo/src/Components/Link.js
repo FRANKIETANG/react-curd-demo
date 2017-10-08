@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link as RouteLink } from 'react-router-dom'
 
-const Link = ({ children }) => (
+const Link = ({ fliter, children }) => (
     <li>
-        <a href="/#">{children}</a>
+        <RouteLink to={"/" + fliter}>{children}</RouteLink>
     </li>
 )
 
