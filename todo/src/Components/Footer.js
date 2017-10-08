@@ -12,7 +12,7 @@ const Footer = () => (
             </Link>
             <Link filter="completed">
                 已完成
-            </Link>                
+            </Link>
         </ul>
     </footer>
 
