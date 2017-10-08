@@ -1,6 +1,7 @@
 {
   "name": "todo",
   "version": "0.1.0",
+  "homepage": "https://frankietang.github.io/react-curd-demo/todo/build",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.2",
