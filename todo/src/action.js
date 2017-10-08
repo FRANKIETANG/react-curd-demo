@@ -1,4 +1,4 @@
-let todoId = 0
+let todoId = 4
 
 export const addTodo = (content) => ({
     type: 'ADD_TODO',
