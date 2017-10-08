@@ -5,3 +5,8 @@ export const addTodo = (content) => ({
     content,
     id: todoId++
 })
+
+export const toggleTodo = (id) => ({
+    type: 'TOGGLE_TODO',
+    id
+})
